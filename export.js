@@ -1,3 +1,4 @@
+window.BC = {};
 (() => {
     var w = Object.create;
     var b = Object.defineProperty;
@@ -843,5 +844,4 @@
             }
         });
     });
-    window.BC = {};
 })();
