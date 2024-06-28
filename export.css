@@ -3467,13 +3467,13 @@ del.diffmod {
 }
 html {
     font-size: 10px;
-    background-color: var(--color-white);
+    background-color: var(--color-canvas);
 }
 body {
     max-inline-size: 800px;
     margin: 0.5em auto 1em;
     padding: 0 1em;
-    background-color: var(--color-white);
+    background-color: var(--color-body);
 }
 h1 {
     font-size: var(--txt-xxx-large);
@@ -3592,7 +3592,7 @@ dd {
     inset-block-start: 0;
 }
 .section-nav {
-    background: var(--color-white);
+    background: var(--color-canvas);
     block-size: 50px;
     border-block-end: 1px solid var(--tint-ink-15);
     border-block-start: 1px solid var(--tint-ink-15);
@@ -3609,11 +3609,11 @@ dd {
     block-size: auto;
 }
 .section-nav__toggle:checked ~ .section-nav__inner .section-nav__toggle-label .section-nav__link:after {
-    border-color: transparent transparent var(--color-black) transparent;
+    border-color: transparent transparent var(--color-ink) transparent;
     border-width: 0 5px 5px 5px;
 }
 .section-nav__link {
-    color: var(--color-black);
+    color: var(--color-ink);
     cursor: pointer;
     display: block;
     font-size: 14px;
@@ -3630,7 +3630,7 @@ dd {
     flex-shrink: 0;
 }
 .section-nav__list {
-    background: var(--color-white);
+    background: var(--color-canvas);
     border-block-start: 0;
     border-inline-end: 0;
     border: 1px solid var(--tint-ink-15);
@@ -3647,7 +3647,7 @@ dd {
     }
 }
 .section-nav__toggle-label {
-    background: var(--color-white);
+    background: var(--color-canvas);
     border-block-end: 1px solid var(--tint-ink-15);
     border-inline-end: 1px solid var(--tint-ink-15);
     flex-shrink: 0;
@@ -3658,7 +3658,7 @@ dd {
 }
 .section-nav__toggle-label .section-nav__link::after {
     block-size: 0;
-    border-color: var(--color-black) transparent transparent transparent;
+    border-color: var(--color-ink) transparent transparent transparent;
     border-style: solid;
     border-width: 5px 5px 0 5px;
     content: "";
@@ -3706,7 +3706,7 @@ dd {
     word-break: break-word;
 }
 .messages-table__overflow {
-    color: var(--color-black);
+    color: var(--color-ink);
     display: list-item;
     max-block-size: 4.5em;
     overflow: hidden;
